@@ -43,3 +43,6 @@ TODO:
 - it should have a function that will take an array of ints as input and return an array of ints with each digit squared 
     - input: [1] -> [1] ✅
     - input: [1, 2, 3] -> [1, 4, 9] ✅
+- the main function should use both functions above to get the final array with an array of ints and concatenate them
+    - input: 1 -> 1 ✅
+    - input: 123 -> 149 ✅

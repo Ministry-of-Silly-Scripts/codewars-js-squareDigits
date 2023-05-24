@@ -1,4 +1,16 @@
-const squareDigits = () => true;
+const squareDigits = (num) => {
+  outArray = intDigitsToArray(num);
+  outArraySquare = squareDigitsOfArray(outArray);
+
+  out = "";
+
+  for (e of outArraySquare) {
+    out += e.toString();
+  }
+
+  return parseInt(out);
+};
+
 
 const intDigitsToArray = (num) => {
   numToString = num.toString();
