@@ -46,5 +46,5 @@ TODO:
 - the main function should use both functions above to get the final array with an array of ints and concatenate them
     - input: 1 -> 1 ✅
     - input: 123 -> 149 ✅
-- refactor to increase efficiency
-- another refactor
+- refactor to increase efficiency ✅
+- another refactor ✅
