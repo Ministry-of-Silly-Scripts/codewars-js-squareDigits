@@ -32,3 +32,6 @@ TODO:
         - missing git repo update
     - update code/test files ✅
 - domain discussion ✅
+- it should have an function that will take an int input and return an array with the digits separated
+    - input: 1 -> [1] ✅
+    - input: 123 -> [1, 2, 3] ✅
