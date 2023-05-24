@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const squareDigits = () => true;
 
 module.exports = {
-  placeholder,
+  squareDigits,
 };

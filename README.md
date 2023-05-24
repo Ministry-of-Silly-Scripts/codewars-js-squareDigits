@@ -1,8 +1,8 @@
-# KATA TITLE
+# Digit*Digit
 
-XXXX kata performed to train TDD (part of Jaguars training at IBM)
+Digit*Digit kata performed to train TDD (part of Jaguars training at IBM)
 
-[XXX on CodeWars](https://www.codewars.com/kata/TBD)
+[Digit*Digit on CodeWars](https://www.codewars.com/kata/546e2562b03326a88e000020)
 
 ## Prerequisites
 
