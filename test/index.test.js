@@ -1,4 +1,4 @@
-const { squareDigits, squareDigitsOfArray } = require("../src/index");
+const { squareDigits } = require("../src/index");
 
 // describe("intDigitsToArray", () => {
 //   test("it should have 1 as input and return [1]", () => {
@@ -10,15 +10,15 @@ const { squareDigits, squareDigitsOfArray } = require("../src/index");
 //   });
 // })
 
-describe("squareDigitsOfArray", () => {
-  test("it should have [1] as input and return [1]", () => {
-    expect(squareDigitsOfArray([1])).toStrictEqual([1]);
-  });
+// describe("squareDigitsOfArray", () => {
+//   test("it should have [1] as input and return [1]", () => {
+//     expect(squareDigitsOfArray([1])).toStrictEqual([1]);
+//   });
 
-  test("it should have [1, 2, 3] as input and return [1, 4, 9]", () => {
-    expect(squareDigitsOfArray([1, 2, 3])).toStrictEqual([1, 4, 9]);
-  });
-})
+//   test("it should have [1, 2, 3] as input and return [1, 4, 9]", () => {
+//     expect(squareDigitsOfArray([1, 2, 3])).toStrictEqual([1, 4, 9]);
+//   });
+// })
 
 describe("squareDigits", () => {
   test("it should have 1 as input and return 1", () => {

@@ -1,31 +1,14 @@
 const squareDigits = (num) => {
-  outArray = num.toString().split('');
-  outArraySquare = squareDigitsOfArray(outArray);
+  out = num
+    .toString()
+    .split("")
+    .map(num => parseInt(num))
+    .map(num => num * num)
+    .join("")
 
-  return parseInt(outArraySquare.join(''));
+  return parseInt(out);
 };
-
-// const intDigitsToArray = (num) => {
-//   numToString = num.toString();
-//   out = []
-//   for (c of numToString) {
-//     out.push(parseInt(c))
-//   }
-
-//   return out;
-// }
-
-const squareDigitsOfArray = (arr) => {
-  out = []
-
-  for (e of arr) {
-    out.push(e * e)
-  }
-
-  return out
-}
 
 module.exports = {
   squareDigits,
-  squareDigitsOfArray,
 };
