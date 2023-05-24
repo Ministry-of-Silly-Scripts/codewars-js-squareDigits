@@ -10,7 +10,18 @@ const intDigitsToArray = (num) => {
   return out;
 }
 
+const squareDigitsOfArray = (arr) => {
+  out = []
+
+  for (e of arr) {
+    out.push(e * e)
+  }
+
+  return out
+}
+
 module.exports = {
   squareDigits,
   intDigitsToArray,
+  squareDigitsOfArray,
 };
